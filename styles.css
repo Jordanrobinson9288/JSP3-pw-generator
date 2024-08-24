@@ -1,0 +1,80 @@
+html, body {
+    background-color: #022239;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font: 16px sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 90vh;
+}
+.pw-gen-label {
+    /* background: gold; */
+    display: flex;
+    font-size: small;
+    padding: 15px 0;
+}
+.pw-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 20rem;
+    /* height: 4rem; */
+    /* border: solid 5px red; */
+}
+.pw-container input {
+    text-align: center;
+    border: solid 12px lime;
+    outline: lime;
+}
+#password:hover {
+    border: solid 2px lime;
+    font-weight: 600;
+    cursor: pointer;
+}
+#password {
+    width: 100vw;
+    padding: 18px;
+    margin-bottom: 10px;
+    -o-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #999;
+    font-size: 1.4rem;
+}
+#submit {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+    font-size: larger;
+    margin-top: 2rem;
+    padding: 20px;
+    border: solid 1px #999;
+    -o-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    border-width: 0;
+    -o-transition: all 400ms;
+    -webkit-transition: all 400ms;
+    -moz-transition: all 400ms;
+    -ms-transition: all 400ms;
+    transition: all 400ms;
+}
+#submit:hover {
+    background-color: limegreen;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
